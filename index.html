@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Particle.js Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navbar -->
+  <nav class="main-navbar">
+    <span class="navbar-title">Portfolio</span>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+  </nav>
+
+  <!-- Content -->
+  <div class="container" style="margin-top:70px;">
+    <header>
+      <h1>Farah Thasleem S</h1>
+      <p id="typing"></p>
+    </header>
+
+    <!-- About -->
+ <!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-content">
+    <div class="about-text">
+      <p>
+        Hi, I am <strong>Farah Thasleem S</strong>, a passionate Web Developer and UI/UX Designer.
+        I love creating responsive, interactive, and user-friendly websites that bring ideas to life.
+        With hands-on experience in HTML, CSS, JavaScript, and React, I focus on clean code and engaging designs.
+        I thrive on solving problems and turning challenges into innovative solutions.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Particle.js</div>
+        <div class="skill">React</div>
+        <div class="skill">Node.js</div>
+        <div class="skill">UI/UX Design</div>
+        <div class="skill">Python</div>
+        <div class="skill">C Programming</div>
+        <div class="skill">Java</div>
+        <div class="skill">Flask</div>
+        <div class="skill">Django</div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-list">
+        <div class="experience">
+          <h3>Web Developer Intern</h3>
+          <p><strong>SHADOWFOX</strong></p>
+          <p>
+            Developed dynamic features and optimized websites to be creative and user-friendly.
+            Worked on both front-end and back-end (server-side logic, databases, and APIs).
+            Built attractive websites using <strong>HTML5, CSS3, JavaScript, and Particle.js</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+
+        <article class="project card">
+          <h3>Portfolio</h3>
+          <p>
+            A fully responsive personal portfolio website showcasing my skills, experience, and projects.
+            Features dynamic typing, smooth scroll, theme toggle, and particle.js background.
+          </p>
+          <div class="tech-buttons">
+            <button>HTML5</button>
+            <button>CSS3</button>
+            <button>JavaScript</button>
+            <button>Particle.js</button>
+          </div>
+        </article>
+
+        <article class="project card">
+          <h3>FoundDesk</h3>
+          <p>
+            A digital lost-and-found platform for colleges and universities.
+            Users can report lost items, post found items, and receive notifications for matches.
+          </p>
+          <div class="tech-buttons">
+            <button>HTML5</button>
+            <button>CSS3</button>
+            <button>JavaScript</button>
+            <button>Flask</button>
+            <button>MySQL</button>
+          </div>
+        </article>
+
+        <article class="project card">
+          <h3>Real-Time Bus Tracking</h3>
+          <p>
+            Real-time public transport tracking for small cities.
+            IoT GPS devices on buses show live positions, routes, and estimated arrival times via a web interface.
+          </p>
+          <div class="tech-buttons">
+            <button>HTML5</button>
+            <button>CSS3</button>
+            <button>JavaScript</button>
+            <button>Node.js</button>
+            <button>Flask/Django</button>
+            <button>Google Maps API</button>
+            <button>IoT GPS</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for contacting me!');">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Social Icons -->
+  <div class="social-icons">
+    <a href="https://github.com/farah11013" target="_blank" class="social-btn" rel="noopener"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/" target="_blank" class="social-btn" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/" target="_blank" class="social-btn" rel="noopener"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <!-- Particle.js -->
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="script.js"></script>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h4>&copy; 2025 Farah Thasleem S. All Rights Reserved.</h4>
+  </footer>
+</body>
+</html>
